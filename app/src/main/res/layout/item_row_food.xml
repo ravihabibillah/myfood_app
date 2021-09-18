@@ -24,7 +24,6 @@
 
         <TextView
             android:id="@+id/tv_item_name"
-
             android:layout_marginBottom="8dp"
             style="@style/TextContent.Title"
             tools:text="@string/food_name" />
@@ -39,6 +38,8 @@
             android:id="@+id/tv_item_detail"
             style="@style/TextContent"
             android:ellipsize="end"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:maxLines="4"
             tools:text="@string/food_detail" />
 

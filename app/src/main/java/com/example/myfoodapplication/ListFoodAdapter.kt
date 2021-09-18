@@ -33,6 +33,7 @@ class ListFoodAdapter(private val listFood: ArrayList<Food>) :
 
         Glide.with(holder.itemView.context)
             .load(food.photo)
+            .centerCrop()
             .apply(RequestOptions().override(120, 140))
             .into(holder.imgPhoto)
 

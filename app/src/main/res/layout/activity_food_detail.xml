@@ -15,7 +15,7 @@
 
         <ImageView
             android:id="@+id/iv_item_photo"
-            android:layout_width="match_parent"
+            android:layout_width="360dp"
             android:layout_height="250dp"
             android:layout_gravity="center"
             android:layout_marginBottom="20dp"
@@ -48,6 +48,7 @@
         <TextView
             android:id="@+id/tv_item_detail"
             style="@style/TextContent"
+            android:layout_marginBottom="16dp"
             tools:text="@string/food_detail" />
 
         <TextView
@@ -58,16 +59,17 @@
         <TextView
             android:id="@+id/tv_item_tools"
             style="@style/TextContent"
+            android:layout_marginBottom="16dp"
             tools:text="@string/food_tools" />
 
         <TextView
-           style="@style/TextContent.TitleH2"
-            android:text="@string/food_recipe"
-             />
+            style="@style/TextContent.TitleH2"
+            android:text="@string/food_recipe" />
 
         <TextView
             android:id="@+id/tv_item_recipe"
             style="@style/TextContent"
+            android:layout_marginBottom="16dp"
             tools:text="@string/food_recipe" />
     </LinearLayout>
 
