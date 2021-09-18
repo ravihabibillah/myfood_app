@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyFoodApplication</string>
+    <string name="food_name">Nama Makanan</string>
+    <string name="food_country">Nama Daerah</string>
+    <string name="food_detail">Detail</string>
+    <string name="food_tools">Alat dan Bahan</string>
+    <string name="food_recipe">Langkah-langkah</string>
+    <string name="about_me">About Me</string>
+
+</resources>
